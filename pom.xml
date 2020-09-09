@@ -53,9 +53,9 @@
             <version>4.0.0-RC2</version>
         </dependency>-->
 
-        <!-- 如果使用数据治理，则引入本部分shardingsphere依赖，并且注释掉上面引用的sharding-jdbc -->
+        <!-- 如果使用数据治理，则引入本部分shardingsphere依赖，并且注释掉上面引用的sharding-jdb部分 -->
         <!-- 数据治理 -->
-        <!--<dependency>
+       <!-- <dependency>
             <groupId>org.apache.shardingsphere</groupId>
             <artifactId>sharding-jdbc-orchestration-spring-boot-starter</artifactId>
             <version>4.0.0-RC2</version>
